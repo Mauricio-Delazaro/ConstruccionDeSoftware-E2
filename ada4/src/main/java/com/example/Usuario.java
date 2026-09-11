@@ -4,8 +4,14 @@ public class Usuario {
     private String nombreUsuario;
     private String correoUsuario;
     private int idUsuario;
-    
-     public void mostrarUsuario() {
+
+    public Usuario(nombreUsuario, correoUsuario, idUsuario){
+        this.nombreUsuario = nombreUsuario;
+        this.correoUsuario = correoUsuario;
+        this.idUsuario = idUsuario;
+    }
+
+    public void mostrarUsuario() {
         System.out.println("Usuario: " + nombreUsuario);
         System.out.println("Correo: " + correoUsuario);
         System.out.println("ID: " + idUsuario);

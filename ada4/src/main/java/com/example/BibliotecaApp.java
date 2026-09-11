@@ -1,9 +1,6 @@
 package com.example;
+package java.util.Scanner; 
 
-/**
- * Hello world!
- *
- */
 public class BibliotecaApp 
 {
     public static void main( String[] args )

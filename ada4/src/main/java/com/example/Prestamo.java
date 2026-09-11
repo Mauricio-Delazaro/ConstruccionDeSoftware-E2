@@ -6,6 +6,13 @@ public class Prestamo {
     private double multaPorDia;
     private int diasRetraso;
 
+    public Prestamo(fechaPrestamo, fechaDevolucion, multaPorDia, diasRetraso){
+        this.fechaPrestamo = fechaPrestamo;
+        this.fechaDevolucion = fechaDevolucion;
+        this.multaPorDia = multaPorDia;
+        this.diasRetraso = diasRetraso;
+    }
+
     public double calcularMulta() {
         return multaPorDia * diasRetraso;
     }
