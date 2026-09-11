@@ -6,7 +6,7 @@ public class Prestamo {
     private double multaPorDia;
     private int diasRetraso;
 
-    public Prestamo(fechaPrestamo, fechaDevolucion, multaPorDia, diasRetraso){
+    public Prestamo(String fechaPrestamo,String fechaDevolucion, double multaPorDia,int diasRetraso){
         this.fechaPrestamo = fechaPrestamo;
         this.fechaDevolucion = fechaDevolucion;
         this.multaPorDia = multaPorDia;
