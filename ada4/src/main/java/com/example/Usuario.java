@@ -5,7 +5,7 @@ public class Usuario {
     private String correoUsuario;
     private int idUsuario;
 
-    public Usuario(nombreUsuario, correoUsuario, idUsuario){
+    public Usuario(String nombreUsuario,String correoUsuario,int idUsuario){
         this.nombreUsuario = nombreUsuario;
         this.correoUsuario = correoUsuario;
         this.idUsuario = idUsuario;
